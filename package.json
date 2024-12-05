@@ -1,0 +1,23 @@
+{
+  "name": "rrps03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "decorator": "ts-node Decorator.ts",
+    "factory": "ts-node FactoryMethod.ts",
+    "observer": "ts-node Observer.ts",
+    "singleton": "ts-node Singleton.ts",
+    "strategy": "ts-node Strategy.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OleksandrPetrukIPZM/RRPS03.git"
+  },
+  "private": true,
+  "dependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+
+  }
+}
